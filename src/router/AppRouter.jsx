@@ -9,6 +9,7 @@ import NavBar from "../components/Navbar";
 import JobPage from "../pages/JobPage";
 import AboutPage from "../pages/AboutPage";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const AppRouter = () => {
   return (
@@ -24,6 +25,7 @@ const AppRouter = () => {
             <Route path="/*" element={<Navigate to="/" />} />
           </Routes>
         </div>
+        <Footer />
       </Router>
     </>
   );
