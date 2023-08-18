@@ -2,7 +2,7 @@ import React from "react";
 import facebook from "../assets/facebook.png";
 import github from "../assets/github.png";
 import instagram from "../assets/instagram.jpg";
-import twitter from "../assets/twitter.png";
+import linkedin from "../assets/linkedin.png";
 import "./Footer.css";
 
 const Footer = () => {
@@ -10,6 +10,7 @@ const Footer = () => {
     <>
       <footer className="container">
         <main className="col">
+          linkedin
           <article className="row">
             <div className="imagesGroup">
               <a href="https://www.facebook.com/yumerlisp.guedezr/">
@@ -24,9 +25,9 @@ const Footer = () => {
                   alt="logoinstagram"
                 />
               </a>
-              <a href="https://twitter.com/csyumerlis111">
-                <i className="fa fa-twitter" />
-                <img className="imgfooter" src={twitter} alt="logotwitter" />
+              <a href="https://www.linkedin.com/in/yumerlis-guedez-rodriguez-678543126/">
+                <i className="fa fa linkedin" />
+                <img className="imgfooter" src={linkedin} alt="logolinkedin" />
               </a>
               <a href="https://github.com/yumeguedez">
                 <i className="fa fa-github" />
