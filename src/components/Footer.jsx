@@ -10,7 +10,6 @@ const Footer = () => {
     <>
       <footer className="container">
         <main className="col">
-          linkedin
           <article className="row">
             <div className="imagesGroup">
               <a href="https://www.facebook.com/yumerlisp.guedezr/">

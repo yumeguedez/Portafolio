@@ -5,7 +5,7 @@ import {
   Navigate,
 } from "react-router-dom";
 
-import NavBar from "../components/Navbar";
+import ColorSchemesExample from "../components/Navbar";
 import JobPage from "../pages/JobPage";
 import AboutPage from "../pages/AboutPage";
 import Header from "../components/Header";
@@ -15,7 +15,7 @@ const AppRouter = () => {
   return (
     <>
       <Router>
-        <NavBar />
+        <ColorSchemesExample />
         <Header />
 
         <div className="container">
