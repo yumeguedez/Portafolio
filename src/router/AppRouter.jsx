@@ -5,7 +5,7 @@ import {
   Navigate,
 } from "react-router-dom";
 
-import ColorSchemesExample from "../components/Navbar";
+import ColorSchemesExample from "../components/NavBar";
 import JobPage from "../pages/JobPage";
 import AboutPage from "../pages/AboutPage";
 import Header from "../components/Header";
